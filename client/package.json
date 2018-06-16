@@ -1,0 +1,24 @@
+{
+  "name": "ph-instant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/background.js --output ./dist/background.js --watch",
+    "build": "webpack --mode production ./src/background.js --output ./dist/background.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
+  }
+}
