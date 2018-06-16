@@ -13,7 +13,6 @@ app.get('/alerts/:id', (req, res) => {
   console.log('Checking alerts after id', id);
   posts.getPostsAfter(id)
     .then(posts => posts.map(post => {
-      console.log('Mapping', post);
       const {id, name, tagline} = post;
       const url = post.discussion_url;
       const img = post.thumbnail.image_url.split('?')[0];
