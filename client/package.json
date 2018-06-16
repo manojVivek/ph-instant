@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development ./src/background.js --output ./dist/background.js --watch",
-    "build": "webpack --mode production ./src/background.js --output ./dist/background.js --watch"
+    "build": "webpack --mode production ./src/background.js --output ./dist/background.js"
   },
   "author": "",
   "license": "ISC",
