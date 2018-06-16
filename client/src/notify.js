@@ -6,7 +6,7 @@ export function sendNotification(post) {
     post.id.toString(),
     {
       type: 'basic',
-      iconUrl: '../static/ph_logo.png',
+      iconUrl: '../static/ph_instant_logo.png',
       title: "New PH: " + post.name,
       message: post.tagline,
     },
