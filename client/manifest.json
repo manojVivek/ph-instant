@@ -1,14 +1,15 @@
 {
   "name": "ProductHunt-Instant",
-  "description" : "Instant Notifier for new products on ProductHunt.com",
-  "version": "1.0",
+  "description" : "Instant Notifier for all new products posted on ProductHunt.com",
+  "short_name": "PH-Instant",
+  "version": "1.2",
   "manifest_version": 2,
   "background":{
     "scripts": ["background.js"]
   },
   "browser_action": {
     "default_icon": "static/ph_instant_logo_128.png",
-    "default_title": "PH Instant"
+    "default_title": "PH-Instant"
   },
   "icons": {
     "16": "static/ph_instant_logo_16.png",
